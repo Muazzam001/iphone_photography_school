@@ -1,0 +1,203 @@
+/* DESKTOP FIRST MEDIA QUERIES */
+// XX-Large devices (larger desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+/* Custom Media Query (desktops, less than 1024px)*/
+@media (max-width: 1023.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/* Customized Media Queries (phones, less than 400px) */
+
+/* Extra small devices (portrait phones, less than 400px)*/
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 320px) {
+}
+
+/* Customized Media Queries (phones, less than 400px) */
+
+/* /DESKTOP FIRST MEDIA QUERIES */
+
+/**/
+
+
+/* MOBILE FIRST MEDIA QUERIES */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .container__wrapper {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .post {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+
+        @at-root #{&}__col--three-fourth {
+            width: 68.5%;
+        }
+
+        @at-root #{&}__col--one-fourth {
+            width: 28.5%;
+        }
+
+        @at-root #{&}__header {
+            min-height: 135px;
+            position: relative;
+        }
+
+        @at-root #{&}__title {
+            font-size: 2.5rem;
+            line-height: 1.25;
+            margin: auto;
+
+            @at-root #{&}__border {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 5px;
+                background-image: linear-gradient(to right, $primary-color, $secondary-color);
+            }
+        }
+
+        @at-root #{&}__body {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            @at-root #{&}__sidebar {
+                padding-top: 3.5rem;
+                padding-bottom: 3.5rem;
+            }
+
+        }
+
+    }
+
+}
+
+/* Customized Media Queries (Min Width) */
+
+@media (min-width: 1024px) {
+}
+
+/* Customized Media Queries (Min Width) */
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* Extra extra extra large devices (4K and up)*/
+@media (min-width: 2160px) {
+}
+
+/* /MOBILE FIRST MEDIA QUERIES */
+
+
+/**/
+
+
+/* MIXED SCREEN MEDIA QUERIES */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 1024.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1024.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+}
+
+/* /MIXED SCREEN MEDIA QUERIES */
+
+
+/**/
+
+
+/* COMBINED MEDIA QUERIES */
+
+@media (min-width: 576px), (min-width: 768px), (min-width: 992px), (min-width: 1024px), (min-width: 1200px) {
+}
+
+/* /COMBINED MEDIA QUERIES */

@@ -1,0 +1,67 @@
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+
+    @at-root #{&}__wrapper {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+}
+
+//@at-root #{&}__header
+
+.post {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @at-root #{&}__col {
+    }
+
+    @at-root #{&}__header {
+        font-weight: 600;
+    }
+
+    @at-root #{&}__body {
+
+        @at-root #{&}--gray {
+            background-color: $sec-bg;
+        }
+
+    }
+
+}
+
+.btn {
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: $primary-color;
+    border: $border-zero;
+    color: $white-color;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.35rem;
+    line-height: 1.25;
+    font-weight: 600;
+    display: block;
+    padding: 15px;
+    width: 80%;
+
+    @at-root #{&}--gradiant {
+        background-image: linear-gradient(to right, $primary-color, $secondary-color);
+    }
+
+    @at-root #{&}__text {
+        padding: 0 15px;
+        border-radius: 0 5px 5px 0;
+    }
+
+}
