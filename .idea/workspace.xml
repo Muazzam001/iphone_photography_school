@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c556271-ca5e-49f0-89a3-73aab1f95534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/custom/medias.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/custom/medias.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +181,7 @@
       <workItem from="1594412995501" duration="4073000" />
       <workItem from="1594576190656" duration="1904000" />
       <workItem from="1594581722727" duration="10341000" />
-      <workItem from="1594639516438" duration="6904000" />
+      <workItem from="1594639516438" duration="7234000" />
     </task>
     <servers />
   </component>
